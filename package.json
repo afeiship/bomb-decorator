@@ -1,0 +1,9 @@
+{
+  "name": "bomb-decorator",
+  "version": "0.0.1",
+  "description": "Bomb decorator.",
+  "main": "index.js",
+  "repository": "git@github.com:afeiship/bomb-decorator.git",
+  "author": "feizheng <1290657123@qq.com>",
+  "license": "MIT"
+}
