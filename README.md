@@ -17,11 +17,13 @@ class MyHttp(){
   request(){
     // your codes...
   }
+
   @bomb
   'post,get,put,delete'(inName)=>{
     return (inUrl,inData)=>{
       this.request(inName, inUrl, inData);
     };
   }
+  
 }
 ```
