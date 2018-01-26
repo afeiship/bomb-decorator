@@ -26,4 +26,13 @@ class MyHttp(){
   }
   
 }
+
+// const http = new MyHttp();
+// Now, http has these methods:
+
+// http.post()
+// http.get()
+// http.put()
+// http.delete()
+// http.request()
 ```
