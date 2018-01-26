@@ -9,5 +9,19 @@ npm install -S afeiship/bomb-decorator --registry=https://registry.npm.taobao.or
 
 ## usage:
 ```js
-//DOCS here!
+import bomb from 'bomb-decorator';
+
+
+class MyHttp(){
+
+  request(){
+    // your codes...
+  }
+  @bomb
+  'post,get,put,delete'(inName)=>{
+    return (inUrl,inData)=>{
+      this.request(inName, inUrl, inData);
+    };
+  }
+}
 ```
