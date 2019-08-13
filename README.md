@@ -1,30 +1,26 @@
 # bomb-decorator
 > Bomb decorator.
 
-
-## install:
+## installation
 ```bash
 npm install -S afeiship/bomb-decorator --registry=https://registry.npm.taobao.org
 ```
 
-## usage:
+## usage
 ```js
 import bomb from 'bomb-decorator';
 
-
 class MyHttp(){
-
   request(){
     // your codes...
   }
 
   @bomb
-  'post,get,put,delete'(inName)=>{
-    return (inUrl,inData)=>{
+  'post,get,put,delete'(inName){
+    return (inUrl,inData) => {
       this.request(inName, inUrl, inData);
     };
   }
-  
 }
 
 // const http = new MyHttp();
