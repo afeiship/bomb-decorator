@@ -3,12 +3,12 @@
 
 ## installation
 ```bash
-npm install -S afeiship/bomb-decorator --registry=https://registry.npm.taobao.org
+npm install -S @feizehng/bomb-decorator
 ```
 
 ## usage
 ```js
-import bomb from 'bomb-decorator';
+import bomb from '@feizheng/bomb-decorator';
 
 class MyHttp(){
   request(){

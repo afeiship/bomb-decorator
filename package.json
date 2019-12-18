@@ -1,5 +1,5 @@
 {
-  "name": "bomb-decorator",
+  "name": "@feizheng/bomb-decorator",
   "version": "1.0.0",
   "description": "Bomb decorator.",
   "main": "index.js",
@@ -7,6 +7,10 @@
   "author": "feizheng <1290657123@qq.com>",
   "license": "MIT",
   "devDependencies": {
+    "@feizheng/rake-git": "^1.2.1",
     "prettier": "^1.18.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
