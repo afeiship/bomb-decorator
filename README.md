@@ -3,7 +3,7 @@
 
 ## installation
 ```bash
-npm install -S @feizehng/bomb-decorator
+npm install -S @feizheng/bomb-decorator
 ```
 
 ## usage
