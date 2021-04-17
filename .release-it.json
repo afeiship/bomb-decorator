@@ -6,9 +6,6 @@
     "after:init": [
       "npm run test",
       "t2k"
-    ],
-    "after:bump": [
-      "npm run build"
     ]
   },
   "github": {

@@ -16,5 +16,10 @@
   },
   "scripts": {
     "release": "release-it"
-  }
+  },
+  "keywords": [
+    "es6",
+    "bomb",
+    "decorator"
+  ]
 }
