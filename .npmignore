@@ -4,5 +4,7 @@ config
 static
 .babelrc
 .gitignore
+.prettierrc
+.editorconfig
 yarn.lock
 test

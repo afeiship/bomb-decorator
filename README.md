@@ -3,12 +3,12 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/bomb-decorator
+npm install -S @jswork/bomb-decorator
 ```
 
 ## usage
 ```js
-import bomb from '@feizheng/bomb-decorator';
+import bomb from '@jswork/bomb-decorator';
 
 class MyHttp(){
   request(){
