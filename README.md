@@ -3,7 +3,7 @@
 
 ## installation
 ```bash
-npm install -S @jswork/bomb-decorator
+npm install @jswork/bomb-decorator
 ```
 
 ## usage
